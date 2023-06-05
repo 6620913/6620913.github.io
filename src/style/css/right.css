@@ -1,0 +1,22 @@
+.rightcontainer {
+   
+    display: block;
+    position: relative;
+
+}
+
+.rightcontainer p{
+    font-size: medium;
+}
+.container{
+    
+    position: relative;
+    top: 20vh;
+    /* padding-left: 2vw; */
+    height: inherit;
+
+    border-left: solid;
+    
+    border-width: 2px;
+    border-color: rgb(70, 5, 174);
+}

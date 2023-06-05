@@ -1,0 +1,77 @@
+.leftcontainer {
+    display: block;
+    position: fixed;
+    width: 15vw;
+    height: 98%;
+    min-width: 250px;
+
+
+}
+
+
+/* left container */
+
+.leftlogo {
+    margin: 10px;
+    
+}
+
+.leftlogo img {
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+.leftmenu {
+    position: relative;
+    top: 20vh;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    color: rgb(59, 205, 33);
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Roboto Mono', monospace;
+    /* transform: translateX(-50%); */
+    transition: 0.5s;
+    pointer-events: right;
+
+
+
+
+}
+.leftmenu a{
+    text-decoration: none;
+}
+
+.leftmenu:hover {
+    /* content: attr("data-hover"); */
+    z-index: 2;
+    background-color: rgb(26, 206, 83);
+    color: rgb(13, 9, 113);
+    font-weight: bold;
+    font-size: larger;
+    transform: translateX(10%);
+    
+    
+    
+
+
+}
+
+
+
+.leftmele {
+    margin: 5px;
+    
+
+
+}
+
+
+
+
+/* media query */
+

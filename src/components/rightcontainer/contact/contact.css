@@ -1,0 +1,67 @@
+
+/* contact */
+
+.contact{
+    margin-top: 100px;
+
+}
+
+
+.content{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+
+    
+}
+
+.content p{
+    color: gray;
+}
+
+
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    margin-bottom: 30vh;
+ 
+
+}
+.contactinfo{
+    margin-top: 50px;
+}
+.row1{
+    /* align-content: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+    display: flex;
+
+    color: rgb(70, 5, 174);
+}
+.ctxt{
+     display: flex;
+     flex-direction: row;
+    padding-top: 10px;
+}
+.cimg{
+    color: blue;
+    width: 30px;
+    margin: 5px;
+}
+.clink{
+text-align: center;
+padding:9px ;
+}
+.copyright{
+    font-size: small;
+    color: gray;
+    padding: 5px;
+}
+
+
+
+
