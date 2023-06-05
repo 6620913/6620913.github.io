@@ -51,35 +51,35 @@ function Right() {
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
-                                    <a onClick={()=>scrollToSection(home)}  className="nav-item nav-link active">Home <span class="sr-only">(current)</span></a>
-                                    <a onClick={()=>scrollToSection(projects)}className="nav-item nav-link" >Projects</a>
-                                    <a onClick={()=>scrollToSection(about)} className="nav-item nav-link" >About</a>
-                                    <a onClick={()=>scrollToSection(contact)} className="nav-item nav-link ">Contact</a>
+                                    <a className="nav-item nav-link active">Home <span class="sr-only">(current)</span></a>
+                                    <a className="nav-item nav-link" >Projects</a>
+                                    <a className="nav-item nav-link" >About</a>
+                                    <a  className="nav-item nav-link ">Contact</a>
                                 </div>
                             </div>
                         </nav>
 
 
-                <button onCanPlay={()=>scrollToSection(projects)}/>
+                
                     </div>
 
 
 
 
-                    <div ref={home}>
+                    <div >
                     < Intro />
                     </div>
                    
 
 
-                    <div useRef={projects} id='projects' >
+                    <div  >
                         < Projects  />
                     </div>
 
-<div ref={about}>
+<div >
 <About />
 </div>
-                  <div ref={contact}>
+                  <div >
                   <Contact />
                   </div>
                    

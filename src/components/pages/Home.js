@@ -7,7 +7,7 @@ import '../../style/css/left.css';
 
 
 
-// import { useRef } from "react";
+
 // import Left from '../leftcontainer/left';
 import Right from '../rightcontainer/right';
 
