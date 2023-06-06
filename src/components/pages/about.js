@@ -4,7 +4,9 @@ import React from 'react';
 
 
 import Navbar from '../rightcontainer/navbar/navbar';
-import Intro from '../rightcontainer/intro/intro';
+
+import About from '../rightcontainer/about/about'
+
 import '../../style/css/right.css';
 
 
@@ -15,7 +17,7 @@ import '../../style/css/right.css';
 
 
 
-function Home() {
+function AboutPage() {
 
 
   return (
@@ -23,12 +25,11 @@ function Home() {
 
 
     <div className="rightcontainer">
-    
       <div className='container'>
-      <Navbar />
-       
 
-        <Intro />
+        <Navbar />
+
+        <About />
 
       </div>
 
@@ -37,4 +38,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default AboutPage;
