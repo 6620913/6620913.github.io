@@ -27,24 +27,27 @@
     flex-direction: row;
     font-size: medium;
     margin-bottom: 30vh;
+   
  
 
 }
 .contactinfo{
     margin-top: 50px;
 }
-.row1{
+.col1{
     /* align-content: center; */
     /* margin-left: auto; */
     /* margin-right: auto; */
 
     display: flex;
+   flex-direction: column;
 
-    color: rgb(70, 5, 174);
+    
 }
 .ctxt{
      display: flex;
      flex-direction: row;
+     
     padding-top: 10px;
 }
 .cimg{
@@ -55,6 +58,10 @@
 .clink{
 text-align: center;
 padding:9px ;
+}
+.clink a{
+    text-decoration: none;
+    color: white;
 }
 .copyright{
     font-size: small;

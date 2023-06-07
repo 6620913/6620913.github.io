@@ -23,18 +23,18 @@ function Contact() {
                 <p >Contact/{'>'}</p>
 
                 <div className='contactinfo'>
-                    <h4 >Find me on</h4>
+                    {/* <h4 >Find me on</h4> */}
 
 
                     <div className='contact-row'>
 
-                        <div className='row1'>
+                        <div className='col1'>
                             <div className='ctxt'>
                                 <div className='clogo'>
                                     <img className='cimg' src={linkdin} />
                                 </div>
                                 <div className='clink'>
-                                    LinkedIn
+                                    <a href='https://www.linkedin.com/in/neeraj-gupta-2a0060202/'>https://www.linkedin.com/in/neeraj-gupta-2a0060202/</a>
                                 </div>
                             </div>
                             <div className='ctxt'>
@@ -42,8 +42,9 @@ function Contact() {
                                 <div className='clogo'>
                                     <img className='cimg' src={github} />
                                 </div>
-                                <div className='clink'>
-                                    Github:
+                                <div className='clink' href="https://github.com/6620913">
+                                <a  href='https://github.com/6620913'>https://github.com/6620913</a>
+                            
                                 </div>
 
                             </div>
@@ -52,7 +53,7 @@ function Contact() {
                                     <img className='cimg' src={gmail} />
                                 </div>
                                 <div className='clink'>
-                                    Gmail
+                                    6620913@gmail.com
                                 </div>
                             </div>
 

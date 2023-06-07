@@ -1,4 +1,8 @@
 body {
   background-color: rgb(2, 9, 39);
   font-family: Arial, Helvetica, sans-serif;
+  background-image:  url('./files/images/background/backgroundImg.jpg');
+ backdrop-filter: blur(5px);
+  /* background-blend-mode: rgba(0, 0, 0,0); */
+  
 }
