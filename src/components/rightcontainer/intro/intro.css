@@ -1,23 +1,68 @@
 
 .intro{
-    height: 50vh;
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    font-family: 'Roboto Mono', monospace;
+    /* color:white; */
+    display: flex;
+    margin-bottom: 100px;
+    /* color: white; */
     
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+/* font-family: 'Roboto Mono', monospace;     */
+font-family: Arial, Helvetica, sans-serif;
 
+font-weight: bold;
+    font-size: 3rem;
 
      
    
 
 }
 
+
 /* .intro .sp{
     color: rgb(70, 5, 174);
 } */
 .intro p{
-    color: gray;
+    color: rgb(33, 64, 82);
 }
+
+
+.intro-content{
+    width: 50%;
+
+}
+.intro-img{
+    width: 50%;
+    padding-left: 120px;
+}
+
+
+
+@media  (max-width: 992px) {
+    
+   .intro{
+    flex-direction: column;
+   }
+   .intro-content{
+    width: 100%;
+   }
+   .intro-img{
+    
+    width: 100%;
+   }
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

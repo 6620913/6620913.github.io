@@ -1,8 +1,14 @@
 import React from 'react';
-
 import './navbar.css'
 
 import { HashLink as Link } from 'react-router-hash-link';
+
+
+
+
+
+
+
 
 function Navbar() {
 
@@ -13,12 +19,17 @@ function Navbar() {
 
 
 
+
+
+
+
   return (
     <div className='navclass' >
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#"> <Link to='/' style={{ textDecoration: 'none',color:'black' }}>
-							Welcome
-						</Link></a>
+
+       <nav className="navbar navbar-expand-lg navbar-light bg-light" >
+        <a style={{ textDecoration: 'none',color:'aliceblue',fontSize:'30px',backgroundColor:' #0b837f',padding:'5px',paddingLeft:'20px',paddingRight:'20px',borderRadius:'10px' }} className="navbar-brand" href="https://drive.google.com/file/d/1MmUfFuAW8Ub_-DZbQ2IyGGHaekboxXYX/view?usp=sharing"> 
+							Resume
+						</a>
        
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -48,9 +59,9 @@ function Navbar() {
             </a>
           </div>
         </div>
-      </nav>
+      </nav> 
 
-
+ 
 
     </div>
   );

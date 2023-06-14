@@ -5,6 +5,9 @@ import React from 'react';
 
 import Navbar from '../rightcontainer/navbar/navbar';
 import Intro from '../rightcontainer/intro/intro';
+import Projects from '../rightcontainer/projects/projects'
+import About from '../rightcontainer/about/about'
+import Contact from '../rightcontainer/contact/contact'
 import '../../style/css/right.css';
 
 
@@ -23,16 +26,23 @@ function Home() {
 
 
     <div className="rightcontainer">
-    
-      <div className='container'>
-      <Navbar />
-       
+<Navbar />
+      <div className='home-container'>
+        
+
 
         <Intro />
+        <Projects />
+        <About />
+        <Contact />
 
+
+
+
+    
       </div>
 
-    </div>
+  </div>
 
   );
 }

@@ -16,11 +16,11 @@ function Projects() {
 
 
         <div>
+<div className='topic-head'><h1>Projects{'/>'}</h1></div>
 
             <div className='project-container'>
 
-                <p>Projects{'/>'}</p>
-
+                
                 <div className='projects'>
 
                     <div className='project-boxes'>
@@ -33,8 +33,9 @@ function Projects() {
                             
                             <h5 className="project-title">Front end with backend demo</h5>
 
-
-                            <p className="project-text">It is a dynamic website where i used django as backend server and html/css for front end every data is coming from a database on server</p>
+                            
+                            <div >It is a dynamic website where i used django as backend server and html/css for front end every data is coming from a database on server</div>
+                            <div><span>tech Used</span>Django ,Html, Css</div>
                             <div className='p-btns'>
                                 <div className='p-btn'>
                                     <a href="#" class="btn btn-primary">Code</a>

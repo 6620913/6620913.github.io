@@ -24,10 +24,10 @@ function ProjectsPage() {
 
 
     <div className="rightcontainer">
-       
-      <div className='container'>
+        <Navbar />
+        <div className='home-container'>
 
-      <Navbar />
+     
 
         <Projects />
 

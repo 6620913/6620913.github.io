@@ -24,9 +24,10 @@ function ContactPage() {
 
 
     <div className="rightcontainer">
-      <div className='container'>
+       <Navbar />
+      <div className='home-container'>
 
-        <Navbar />
+       
 
         <Contact />
 

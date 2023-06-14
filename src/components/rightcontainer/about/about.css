@@ -1,35 +1,96 @@
 
 /* About css */
 
+p{
+    color: rgb(33, 64, 82);
+}
+
 .about-content{
-    width: 90%;
-    font-size: medium;
-    word-wrap: normal;
-    line-height: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    width: fit-content;
-    max-width: 95%;
-    background-color: rgb(19, 23, 43);
-    font-family: 'Roboto Mono', monospace;
     
+    word-wrap: normal;
+    
+    
+    padding: 30px;
+    border-radius: 10px;
+  
+    background-color:aliceblue;
+   
+    
+
+    box-shadow: 10px 10px gray;
+
+
+border-radius: 20px;
+margin-bottom: 100px;
     
 }
+
 .indentation{
     color: rgb(2, 9, 39);
 }
 
 
-.b{
-    color: rgb(70, 5, 174);
+.aboutinfo{
+    padding: 5px;
 }
-.y{
-    color: yellow;
+
+/* info-block */
+.info-block{
+    
+    font-family: Arial, Helvetica, sans-serif;
 }
-.g{
-    color: rgb(26, 206, 83);
+
+.info-block-heading{
+    background-color:rgb(92, 118, 250);
+    border-radius: 8px;
+   color: aliceblue;
+    padding:10px;
+    
+
+   
 }
-.r{
-    color: red;
+.info-block p{
+    font-size: medium;
+    font-weight: 400;
+    color: black;
 }
+
+.topic-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+}
+
+.about-txt{
+
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+
+@media  (max-width: 992px) {
+    
+    .about-content{
+        border-radius: 80px;
+    }
+    .aboutinfo{
+        margin: 20px;
+    }
+    .about-txt{
+        font-size: 40px;
+        text-align: justify ; 
+    }
+.topic-head {
+    
+    margin-bottom: 5px;
+   
+    /* text-align: center; */
+}
+.topic-head h1{
+    font-weight: bold;
+}
+    
+   }
 

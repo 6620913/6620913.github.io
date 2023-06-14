@@ -1,10 +1,24 @@
 .navbar{
-    width: 100%;
+    
+    /* width: 100%; */
     /* position: fixed; */
     z-index: 1;
     border-radius: 5px;
     margin-bottom: 100px;
+padding-left: 5%;
+padding-right: 5%;
+   
 }
-.navbar-nav a link{
+.navbar-nav{
+    margin-left: auto;
+    /* padding-right: 20px; */
+}
+.navbar-nav a {
     text-decoration: none;
+    color: #0b837f;
+    font-weight: bold;
+    font-size: large;
+}
+nav{
+    background-color: aliceblue;
 }

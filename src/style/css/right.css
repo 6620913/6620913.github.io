@@ -1,23 +1,27 @@
-.rightcontainer {
-   
-    display: block;
-    position: relative;
-    
 
-}
+/* .body{
+    overflow-x: hidden;
+} */
 
+html, body {width: auto!important; overflow-x: hidden!important} 
 .rightcontainer p{
     font-size: medium;
 }
-.container{
+.home-container{
     
-    position: relative;
-    top: 15vh;
-    /* padding-left: 2vw; */
-    height: inherit;
-
-    border-left: solid;
-    
-    border-width: 2px;
-    border-color: rgb(70, 5, 174);
+    margin-left: 11%;
+    margin-right: 11%;
 }
+
+@media (max-width:992px){
+    .home-container{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+
+
+
+
+
