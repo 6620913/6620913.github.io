@@ -63,12 +63,35 @@ margin-bottom: 100px;
 }
 
 .about-txt{
-
+margin-top: 50px;
     margin-left: 2%;
     margin-right: 2%;
-    text-align: center;
+    /* text-align: center; */
 }
 
+.skills{
+    margin-top: 50px;
+    margin: 20px;
+}
+.skill-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px;
+}
+.skill-container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-skill{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.about-skill img{
+    border-radius: 10px;
+}
 
 @media  (max-width: 992px) {
     

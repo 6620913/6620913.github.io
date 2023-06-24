@@ -1,5 +1,6 @@
 import React from 'react';
-
+import {useState, useEffect } from 'react';
+import axios from 'axios';
 
 import '../../rightcontainer/about/about.css';
 
@@ -10,6 +11,31 @@ import '../../rightcontainer/about/about.css';
 
 function About() {
 
+
+  
+  const [skills, setSkills] = useState({
+
+		images: [],
+
+
+	}
+	);
+
+	useEffect(() => {
+		
+		let data;
+		axios.get('http://localhost:8000/skills/')
+			.then(res => {
+				data = res.data;
+				setSkills({
+					images: data
+				});
+			})
+			.catch(err => { })
+		
+
+		
+	}, []);
 
   return (
 
@@ -37,20 +63,21 @@ function About() {
 
                 Beyond my technical skills, I value continuous growth and staying updated with industry trends. Explore my portfolio for projects showcasing my abilities. If you believe I could be a valuable addition to your team, please reach out. I look forward to making a meaningful impact with your organization."
               </div>
+              <div className='skills' >
+                <div className='skill-head'>Skills{'/>'}</div>
+              <div className='skill-container'>
+              {skills.images.map((skill,id) => (
+            <div className="card about-skill" key={id} >
+              <img src={skill.img} className="card-img-top" alt="..."/>
+            </div>
+                )
+
+                )}
+                </div>
+            </div>
             </div>
 
-            {/* <div className='info-block'>
-              <h5 className='info-block-heading'>
-                Education
-              </h5>
-
-              <p>
-                2016-2017:10th class from JNV Jaffarpur kalan, cbse Board with 10 CGPA,
-                2018-2019:12th class from JNV Jaffarpur kalan, cbse Board with 83.6 %,
-                2019-2020:Drop for JEE from CSRL super 30 noida, get 54k CRL in JEE Mains,
-                2020-now:B.Tech in Ellectrical Engineering from Netaji subhas university of technology, CGPA = 7.54(5 sem)
-              </p>
-            </div> */}
+           
 
 
 
