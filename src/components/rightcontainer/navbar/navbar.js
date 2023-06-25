@@ -27,7 +27,7 @@ function Navbar() {
     <div className='navclass' >
 
        <nav className="navbar navbar-expand-lg navbar-light bg-light" >
-        <a style={{ textDecoration: 'none',color:'aliceblue',fontSize:'30px',backgroundColor:' #0b837f',padding:'5px',paddingLeft:'20px',paddingRight:'20px',borderRadius:'10px' }} className="navbar-brand" href="https://drive.google.com/file/d/1MmUfFuAW8Ub_-DZbQ2IyGGHaekboxXYX/view?usp=sharing"> 
+        <a style={{ textDecoration: 'none',color:'aliceblue',fontSize:'30px',backgroundColor:' #0b837f',padding:'5px',paddingLeft:'20px',paddingRight:'20px',borderRadius:'10px' }} className="navbar-brand" href="https://drive.google.com/file/d/1lnV_DPzFaOLDxeTHWDzkA-KO9j4OwTDJ/view?usp=sharing"> 
 							Resume
 						</a>
        
