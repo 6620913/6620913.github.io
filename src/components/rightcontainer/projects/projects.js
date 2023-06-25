@@ -77,7 +77,6 @@ if(loading==false){
 
                             
                             <div >{detail.disc}</div>
-                            <div><span>tech Used</span>Django ,Html, Css</div>
                             <div className='p-btns'>
                                 <div className='p-btn'>
                                     <a href={detail.codeUrl} class="btn btn-primary">Code</a>
