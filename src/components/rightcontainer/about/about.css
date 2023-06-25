@@ -91,6 +91,7 @@ margin-top: 50px;
 }
 .about-skill img{
     border-radius: 10px;
+    margin: 10px;
 }
 
 @media  (max-width: 992px) {
