@@ -12,7 +12,7 @@ import '../../rightcontainer/projects/projects.css';
 
 function Projects() {
 
-
+    const [loading,setLoading]=useState(false);
 
     const [state, setState] = useState({
 
@@ -22,24 +22,29 @@ function Projects() {
 	}
 	);
 	useEffect(() => {
-		
+		setLoading(true);
 		let data;
-		axios.get('http://localhost:8000/projects/')
+		axios.get('https://holaapi.pythonanywhere.com/projects/')
 			.then(res => {
 				data = res.data;
 				setState({
 					details: data
 				});
+                setLoading(false)
 			})
-			.catch(err => { })
+			.catch(err => {
+
+                setLoading(false)
+             })
 		
 
 		
 	}, []);
 
    
-
+if(loading==false){
     return (
+        
 
 
         <div>
@@ -117,6 +122,7 @@ function Projects() {
 
 
     );
+                }
 }
 
 export default Projects;

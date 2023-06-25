@@ -24,7 +24,7 @@ function About() {
 	useEffect(() => {
 		
 		let data;
-		axios.get('http://localhost:8000/skills/')
+		axios.get('https://holaapi.pythonanywhere.com/skills/')
 			.then(res => {
 				data = res.data;
 				setSkills({
