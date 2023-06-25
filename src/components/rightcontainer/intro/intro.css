@@ -9,7 +9,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-weight: bold;
   font-size: 3rem;
-  text-align: center;
+  
 
      
    
@@ -19,11 +19,19 @@ font-weight: bold;
     font-size: 3rem;
 }
 
+.typing{
+    color:rgb(7, 165, 165);
+    font-size: 2rem;
+}
 /* .intro .sp{
     color: rgb(70, 5, 174);
 } */
+.line{
+    font-size:1rem;
+}
 .intro p{
-    color: rgb(33, 64, 82);
+    color: rgb(40, 33, 82);
+    
 }
 
 
@@ -42,9 +50,11 @@ font-weight: bold;
     
    .intro{
     flex-direction: column;
+    
    }
    .intro-content{
     width: 100%;
+    font-size: 3.5rem;
    }
    .intro-img{
     

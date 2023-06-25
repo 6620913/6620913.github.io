@@ -17,22 +17,25 @@ function Intro() {
 
             <div className='intro-content'>
                 <p>Start/{'>'}</p>
-                <div className='info'> Hi,My Name is <span className='sp'> Neeraj</span> </div>
+                <div className='info'> Hi, My Name is <span className='sp'> Neeraj</span> </div>
                 <div className='info'> I am a {' '}
+                <div className='typing'>
                     <Typewriter
+                        
                         words={['Full stack webdeveloper', 'Competitive coder', 'TechEnthusiast', 'Software developer']}
                         loop={Infinity}
                         cursor
                         cursorStyle='|'
-                        typeSpeed={220}
-                        deleteSpeed={220}
+                        typeSpeed={200}
+                        deleteSpeed={70}
                         delaySpeed={10}
 
                     />
+                    </div>
 
                 </div>
 
-                <p> I like coding because i just like it/{'>'}</p>
+                <div className='line'> I like coding because I just like it/{'>'}</div>
 
 
 
